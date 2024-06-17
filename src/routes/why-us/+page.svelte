@@ -8,9 +8,11 @@
   </style>
   <script>
       const backgroundColor = '#cdf3e5';
+      const headingColor = '#1dcd8d'
+      import girlImage from '$lib/WhatsApp Image 2024-06-16 at 00.18.15_e6d76605.jpg'
   </script>
 
-  <div class="fixed inset-0 items-center" style="background-color: {backgroundColor}">
+  <div class="items-center h-screen" style="background-color: {backgroundColor}">
       <nav
           class="relative flex w-full flex-nowrap items-center justify-between py-4 lg:flex-wrap lg:justify-start lg:py-8 lg:px-7" data-twe-navbar-ref>
           <div class="flex w-full flex-wrap items-center justify-between px-3">
@@ -87,4 +89,23 @@
               </div>
           </div>
       </nav>
+      <div class=" h-20">
+        <h1 class="px-12 py-5 text-5xl" style="color: {headingColor};">Why Us?</h1>
+    </div>
+    <div class="flex flex-wrap justify-around gap-4">
+        <div class="w-full md:w-1/2 lg:w-1/3 bg-white rounded-3xl shadow-md p-4">
+          <h1 class="text-5xl font-bold mb-2 p-6">Let's fine-tune your business blueprint together.</h1>
+          <p class="text-gray-900 mb-8 px-6">Together, let's collaborate on refining and
+            enhancing your business strategy and framework.
+            By meticulously analyzing and adjusting various
+            components, we aim to optimize your operations,
+            streamline processes, and maximize efficiency for
+            sustainable growth and success.</p>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/3 bg-white rounded-lg shadow-md p-4">
+          <img src="{girlImage}" alt="">
+        </div>
+      </div>
+
   </div>
